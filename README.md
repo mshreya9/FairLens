@@ -1,4 +1,6 @@
-# Complaint Prioritisation Fairness Review Agent
+# FairLens
+
+**Complaint Prioritisation Fairness Review Agent**
 
 An AI governance decision-support prototype for a fictional bank. It does **not** rank
 complaints. It audits the outputs of the bank's existing AI complaint-prioritisation model and

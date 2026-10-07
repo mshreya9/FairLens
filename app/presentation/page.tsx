@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { FAIRNESS_THRESHOLD, MINIMUM_SAMPLE_SIZE, PROTECTED_ATTRIBUTES } from "@/lib/policy-data";
+import { SCENARIOS } from "@/lib/scenarios";
 
 type IconProps = { className?: string };
 
@@ -58,6 +59,26 @@ function IconGlobe({ className }: IconProps) {
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className={className}>
       <circle cx="12" cy="12" r="8.5" />
       <path d="M3.5 12h17M12 3.5c2.5 2.3 3.8 5.3 3.8 8.5s-1.3 6.2-3.8 8.5c-2.5-2.3-3.8-5.3-3.8-8.5S9.5 5.8 12 3.5Z" />
+    </svg>
+  );
+}
+
+function IconLayers({ className }: IconProps) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className={className}>
+      <rect x="3" y="3" width="7.5" height="7.5" rx="1.3" />
+      <rect x="13.5" y="3" width="7.5" height="7.5" rx="1.3" />
+      <rect x="3" y="13.5" width="7.5" height="7.5" rx="1.3" />
+      <rect x="13.5" y="13.5" width="7.5" height="7.5" rx="1.3" />
+    </svg>
+  );
+}
+
+function IconPlay({ className }: IconProps) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className={className}>
+      <circle cx="12" cy="12" r="8.5" />
+      <path d="M10 8.3v7.4l6-3.7-6-3.7Z" strokeLinejoin="round" fill="currentColor" />
     </svg>
   );
 }
@@ -128,10 +149,12 @@ export default function PresentationPage() {
           <div className="mx-auto mb-4 inline-flex items-center gap-2 rounded-full border border-white/25 bg-white/10 px-3 py-1 text-[11px] font-semibold uppercase tracking-wide text-white backdrop-blur-sm">
             Course Project &middot; AI Governance Agent
           </div>
-          <h1 className="text-[28px] font-bold leading-tight text-white sm:text-[36px]">
-            Complaint Prioritisation
-            <br className="hidden sm:block" /> Fairness Review Agent
+          <h1 className="text-[40px] font-bold leading-tight text-white sm:text-[52px]">
+            FairLens
           </h1>
+          <p className="mx-auto mt-1 max-w-2xl text-[16px] font-medium text-white/90">
+            Complaint Prioritisation Fairness Review Agent
+          </p>
           <p className="mx-auto mt-3 max-w-2xl text-[15px] leading-relaxed text-white/80">
             An AI governance agent that helps a bank decide whether its complaint-prioritisation AI
             is safe to continue operating.
@@ -172,8 +195,9 @@ export default function PresentationPage() {
           Should the bank continue using its AI complaint-prioritisation model?
         </p>
         <p className="mt-3">
-          The agent never ranks complaints itself. It audits the outputs of a model that already
-          does that, and reports back to the Complaints Head with evidence, not a verdict.
+          FairLens is the agent we built to answer that question. It never ranks complaints
+          itself. It audits the outputs of a model that already does that, and reports back to
+          the Complaints Head with evidence, not a verdict.
         </p>
       </Panel>
 
@@ -231,7 +255,25 @@ export default function PresentationPage() {
         </p>
       </Panel>
 
-      <Panel n={4} Icon={IconCheckCircle} eyebrow="4. How It Concludes" title="Three outcomes, always evidence-backed">
+      <Panel n={4} Icon={IconLayers} eyebrow="4. The Four Scenarios" title="Built-in, reproducible test cases you can run live">
+        <p>
+          FairLens ships with four deterministic synthetic scenarios, around 5,000 complaints
+          each, chosen to walk through every kind of answer the agent can give. The same scenario
+          always produces the exact same numbers, so nothing in a live demo is left to chance.
+        </p>
+        <div className="mt-3 grid grid-cols-1 gap-2 sm:grid-cols-2">
+          {SCENARIOS.map((s) => (
+            <div key={s.id} className="rounded-md border border-[var(--color-border)] bg-[var(--color-bg)] px-3 py-2.5">
+              <div className="text-[12.5px] font-semibold text-[var(--color-text-primary)]">{s.name}</div>
+              <p className="mt-0.5 text-[11.5px] leading-relaxed text-[var(--color-text-secondary)]">
+                {s.shortDescription}
+              </p>
+            </div>
+          ))}
+        </div>
+      </Panel>
+
+      <Panel n={5} Icon={IconCheckCircle} eyebrow="5. How It Concludes" title="Three outcomes, always evidence-backed">
         <div className="grid grid-cols-1 gap-3 sm:grid-cols-3">
           <div className="card-surface rounded-lg border border-[var(--color-proceed-border)] bg-[var(--color-proceed-bg)] px-3.5 py-3.5">
             <div className="text-[13px] font-bold text-[var(--color-proceed)]">PROCEED</div>
@@ -274,7 +316,7 @@ export default function PresentationPage() {
         </p>
       </Panel>
 
-      <Panel n={5} Icon={IconShield} eyebrow="5. Guardrails" title="Built so bias cannot slip through quietly">
+      <Panel n={6} Icon={IconShield} eyebrow="6. Guardrails" title="Built so bias cannot slip through quietly">
         <p>
           Four attributes, language, region, gender and religion, are permanently banned as model
           inputs. Gender and religion go one step further: the agent checks real outcomes across
@@ -307,7 +349,58 @@ export default function PresentationPage() {
         </p>
       </Panel>
 
-      <Panel n={6} Icon={IconGlobe} eyebrow="6. Relevance" title="Why this is worth solving">
+      <Panel n={7} Icon={IconPlay} eyebrow="7. What You Can Demo Live" title="Four things worth clicking through">
+        <p>
+          Everything below runs for real, on the live evidence, not a canned recording.
+        </p>
+        <div className="mt-3 space-y-2">
+          <div className="flex items-start gap-2.5 rounded-md border border-[var(--color-border)] bg-[var(--color-bg)] px-3 py-2.5">
+            <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-[var(--color-accent)] text-[10px] font-bold text-white">1</span>
+            <div>
+              <div className="text-[12.5px] font-semibold text-[var(--color-text-primary)]">Run all four scenarios</div>
+              <p className="mt-0.5 text-[11.5px] text-[var(--color-text-secondary)]">
+                On the Review page, pick each scenario card in turn and watch the recommendation,
+                the charts, and the evidence table change to match the story.
+              </p>
+            </div>
+          </div>
+          <div className="flex items-start gap-2.5 rounded-md border border-[var(--color-border)] bg-[var(--color-bg)] px-3 py-2.5">
+            <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-[var(--color-accent)] text-[10px] font-bold text-white">2</span>
+            <div>
+              <div className="text-[12.5px] font-semibold text-[var(--color-text-primary)]">Break a guardrail on purpose</div>
+              <p className="mt-0.5 text-[11.5px] text-[var(--color-text-secondary)]">
+                In Step 2 on the Review page, switch on Language, Region, Gender or Religion as a
+                model input, then run the review again. It escalates immediately, and the Model
+                Input Policy Check names exactly which rule broke.
+              </p>
+            </div>
+          </div>
+          <div className="flex items-start gap-2.5 rounded-md border border-[var(--color-border)] bg-[var(--color-bg)] px-3 py-2.5">
+            <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-[var(--color-accent)] text-[10px] font-bold text-white">3</span>
+            <div>
+              <div className="text-[12.5px] font-semibold text-[var(--color-text-primary)]">Upload your own data</div>
+              <p className="mt-0.5 text-[11.5px] text-[var(--color-text-secondary)]">
+                The Review page also accepts a CSV of complaint records instead of a scenario. It
+                is validated and analysed in the browser; only the computed evidence, never the
+                raw rows, is ever sent onward.
+              </p>
+            </div>
+          </div>
+          <div className="flex items-start gap-2.5 rounded-md border border-[var(--color-border)] bg-[var(--color-bg)] px-3 py-2.5">
+            <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-[var(--color-accent)] text-[10px] font-bold text-white">4</span>
+            <div>
+              <div className="text-[12.5px] font-semibold text-[var(--color-text-primary)]">Open the Testing page</div>
+              <p className="mt-0.5 text-[11.5px] text-[var(--color-text-secondary)]">
+                Live, automatic proof that all four scenarios and every policy rule, including the
+                gender and religion guardrails, produce the correct result, recomputed fresh on
+                every page load, not a screenshot.
+              </p>
+            </div>
+          </div>
+        </div>
+      </Panel>
+
+      <Panel n={8} Icon={IconGlobe} eyebrow="8. Relevance" title="Why this is worth solving">
         <p>
           Complaint handling is one of the few places a bank&apos;s AI touches almost every
           customer, and it is exactly the kind of decision regulators expect a human to be able
@@ -326,8 +419,8 @@ export default function PresentationPage() {
 
       <section className="panel-surface rounded-2xl border border-[var(--color-border)] bg-gradient-to-br from-white to-[var(--color-accent-light)] p-7 text-center">
         <p className="text-[13.5px] text-[var(--color-text-secondary)]">
-          See it work: open the Review page, run the Regional-Language Bias scenario, then the
-          Explained Gap scenario, and compare how differently each one ends.
+          See it work: open the Review page, run all four scenarios in turn, then flip a
+          guardrail toggle and watch it escalate instantly.
         </p>
         <Link
           href="/review"

@@ -87,10 +87,11 @@ export default function ReviewPage() {
     <div className="max-w-[1100px] space-y-6">
       <div>
         <h1 className="text-[22px] font-semibold text-[var(--color-text-primary)]">
-          Complaint AI Fairness Review
+          FairLens
         </h1>
         <p className="mt-1 text-[13px] text-[var(--color-text-secondary)]">
-          Governance decision support for AI complaint prioritisation
+          Complaint Prioritisation Fairness Review Agent, governance decision support for AI
+          complaint prioritisation
         </p>
         <p className="mt-2 max-w-2xl text-[12.5px] leading-relaxed text-[var(--color-text-muted)]">
           Review whether the bank&apos;s AI complaint-prioritisation model is safe to continue

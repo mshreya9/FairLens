@@ -44,8 +44,8 @@ export default function Sidebar() {
       </ul>
 
       <div className="mt-8 rounded-md border border-[var(--color-border)] bg-[var(--color-bg)] p-3 text-[11px] leading-relaxed text-[var(--color-text-muted)]">
-        This is a governance decision-support prototype using synthetic data. It supports the
-        Complaints Head. It does not replace managerial judgement.
+        FairLens is a governance decision-support prototype using synthetic data. It supports
+        the Complaints Head. It does not replace managerial judgement.
       </div>
 
       <div className="mt-3 px-3 text-[11px] text-[var(--color-text-muted)]">

@@ -6,14 +6,14 @@ export default function Header() {
       <div className="mx-auto flex max-w-[1400px] items-center justify-between px-6 py-3">
         <div className="flex items-center gap-3">
           <div className="flex h-9 w-9 items-center justify-center rounded-lg border border-white/25 bg-gradient-to-br from-white/20 to-white/5 text-sm font-bold shadow-inner">
-            AG
+            FL
           </div>
           <div className="leading-tight">
-            <div className="text-[13px] font-semibold tracking-wide text-white">
-              Complaint AI Fairness Review
+            <div className="text-[14px] font-bold tracking-wide text-white">
+              FairLens
             </div>
             <div className="text-[11px] text-white/60">
-              AI Governance &amp; Risk Review Platform
+              Complaint Prioritisation Fairness Review Agent
             </div>
           </div>
         </div>

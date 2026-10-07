@@ -20,3 +20,4 @@
 - Added the Guide and Presentation pages
 - Hardened the AI governance narrative against prompt injection and discrimination-justifying language
 - Rewrote the app copy to remove em dashes throughout
+- Named the project FairLens

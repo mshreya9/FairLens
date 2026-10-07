@@ -10,7 +10,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Complaint AI Fairness Review",
+  title: "FairLens | Complaint AI Fairness Review",
   description: "Governance decision support for AI complaint prioritisation",
 };
 
