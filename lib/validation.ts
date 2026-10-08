@@ -97,6 +97,23 @@ export type GovernanceReportValidated = z.infer<typeof governanceReportSchema>;
 // ---------------------------------------------------------------------------
 // Optional CSV upload schema (section 11).
 // ---------------------------------------------------------------------------
+
+// z.coerce.boolean() uses JS `Boolean(value)`, which treats ANY non-empty
+// string as true, including the string "false" or "0". Since every CSV cell
+// arrives as a string, that would silently turn a column full of "FALSE"
+// into `true`. This preprocessor reads common CSV boolean spellings
+// correctly before handing off to z.boolean().
+const csvBoolean = z.preprocess((val) => {
+  if (typeof val === "boolean") return val;
+  if (typeof val === "number") return val !== 0;
+  if (typeof val === "string") {
+    const normalized = val.trim().toLowerCase();
+    if (["true", "1", "yes", "y"].includes(normalized)) return true;
+    if (["false", "0", "no", "n"].includes(normalized)) return false;
+  }
+  return val;
+}, z.boolean());
+
 export const csvRowSchema = z.object({
   complaint_id: z.string().min(1),
   severity: z.enum(["Critical", "High", "Standard"]),
@@ -113,18 +130,18 @@ export const csvRowSchema = z.object({
   gender: z.enum(["Male", "Female", "Other"]),
   religion: z.enum(["Hindu", "Muslim", "Christian", "Sikh", "Other"]),
   prior_complaints: z.coerce.number().int().min(0),
-  vulnerability_flag: z.coerce.boolean(),
+  vulnerability_flag: csvBoolean,
   ai_priority: z.enum(["High", "Low"]),
   resolution_days: z.coerce.number().min(0),
   reopened_after_low_priority: z
-    .union([z.coerce.boolean(), z.literal(""), z.null(), z.undefined()])
+    .union([csvBoolean, z.literal(""), z.null(), z.undefined()])
     .optional(),
-  escalated: z.coerce.boolean(),
-  model_input_language: z.coerce.boolean(),
-  model_input_region: z.coerce.boolean(),
-  model_input_customer_value: z.coerce.boolean(),
-  model_input_gender: z.coerce.boolean(),
-  model_input_religion: z.coerce.boolean(),
+  escalated: csvBoolean,
+  model_input_language: csvBoolean,
+  model_input_region: csvBoolean,
+  model_input_customer_value: csvBoolean,
+  model_input_gender: csvBoolean,
+  model_input_religion: csvBoolean,
 });
 
 export const REQUIRED_CSV_COLUMNS = [

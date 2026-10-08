@@ -1,0 +1,201 @@
+complaint_id,severity,product,language,region,customer_value_tier,gender,religion,prior_complaints,vulnerability_flag,ai_priority,resolution_days,reopened_after_low_priority,escalated,model_input_language,model_input_region,model_input_customer_value,model_input_gender,model_input_religion
+MAR-003,High,Digital Banking,Marathi,East,High Value,Male,Hindu,2,FALSE,Low,18,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-049,Standard,Digital Banking,English,South,Premium,Female,Christian,0,TRUE,High,16,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-031,Critical,Digital Banking,Marathi,South,High Value,Male,Christian,2,FALSE,Low,2,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-032,Critical,Credit Card,Marathi,East,Standard,Male,Other,3,FALSE,Low,3,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-028,Standard,Savings Account,English,South,Premium,Female,Hindu,3,FALSE,High,12,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-012,Critical,Credit Card,Marathi,West,Standard,Male,Sikh,3,FALSE,Low,2,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-021,Critical,Personal Loan,English,South,Premium,Male,Muslim,0,FALSE,Low,4,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-064,High,Digital Banking,English,East,Premium,Male,Muslim,3,FALSE,High,2,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-071,Critical,Digital Banking,English,South,Standard,Female,Hindu,2,FALSE,High,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-025,High,Payments,Marathi,West,Premium,Male,Christian,0,TRUE,Low,15,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-086,Standard,Digital Banking,English,South,High Value,Male,Muslim,1,FALSE,High,12,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-034,High,Savings Account,English,West,Standard,Male,Christian,1,FALSE,High,5,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-117,Standard,Payments,English,East,Standard,Female,Hindu,0,FALSE,High,15,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-048,Standard,Digital Banking,Marathi,West,Premium,Male,Sikh,3,FALSE,High,18,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-013,High,Digital Banking,Marathi,West,Premium,Female,Christian,0,FALSE,Low,8,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-029,Standard,Digital Banking,English,North,Premium,Male,Sikh,0,FALSE,High,8,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-097,Standard,Savings Account,English,West,Premium,Female,Muslim,0,TRUE,High,10,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-039,Standard,Personal Loan,Marathi,East,Standard,Female,Christian,2,FALSE,High,8,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-077,Standard,Savings Account,English,West,Premium,Male,Sikh,0,FALSE,High,8,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-054,High,Digital Banking,English,South,Premium,Male,Hindu,1,FALSE,High,6,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-092,Critical,Savings Account,English,West,Premium,Female,Hindu,3,FALSE,High,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-066,Standard,Savings Account,English,North,Standard,Female,Hindu,1,FALSE,High,9,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-014,High,Savings Account,English,South,Premium,Female,Christian,1,FALSE,Low,8,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-056,Standard,Personal Loan,Marathi,South,Premium,Male,Other,3,FALSE,High,6,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-011,Critical,Savings Account,Marathi,East,Standard,Other,Muslim,2,FALSE,Low,3,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-030,Standard,Digital Banking,English,North,Premium,Male,Sikh,1,FALSE,High,8,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-073,High,Payments,English,North,Standard,Male,Other,0,TRUE,High,5,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-080,Standard,Savings Account,English,South,Premium,Male,Sikh,3,FALSE,High,12,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-058,Standard,Credit Card,Marathi,North,High Value,Female,Other,1,FALSE,High,11,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-051,Critical,Credit Card,English,West,Standard,Female,Sikh,2,FALSE,High,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-057,Standard,Credit Card,English,North,High Value,Female,Other,0,TRUE,High,7,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-060,Standard,Personal Loan,English,North,Standard,Female,Muslim,3,FALSE,High,8,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-043,High,Credit Card,Marathi,South,High Value,Female,Sikh,2,FALSE,High,4,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-051,Critical,Personal Loan,Marathi,South,Premium,Female,Sikh,2,FALSE,High,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-022,Critical,Personal Loan,English,North,Premium,Other,Hindu,1,FALSE,Low,4,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-106,Standard,Credit Card,English,North,Standard,Female,Hindu,1,FALSE,High,8,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-079,Standard,Personal Loan,Marathi,West,Premium,Female,Hindu,2,FALSE,High,12,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-004,High,Savings Account,English,West,Standard,Female,Muslim,3,FALSE,Low,16,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-006,Standard,Digital Banking,English,West,High Value,Male,Muslim,1,FALSE,Low,52,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-063,High,Personal Loan,Marathi,West,Standard,Female,Other,2,FALSE,High,3,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-005,High,Credit Card,Marathi,West,High Value,Male,Hindu,0,FALSE,Low,8,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-041,Critical,Personal Loan,English,North,Standard,Male,Muslim,0,TRUE,High,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-048,Standard,Digital Banking,English,South,Standard,Male,Hindu,3,FALSE,High,8,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-015,High,Savings Account,Marathi,South,Premium,Male,Sikh,2,FALSE,Low,17,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-036,Standard,Digital Banking,English,South,High Value,Female,Muslim,3,FALSE,High,14,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-060,Standard,Payments,Marathi,South,Standard,Male,Hindu,3,FALSE,High,15,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-046,Standard,Credit Card,Marathi,North,Premium,Male,Christian,1,FALSE,High,6,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-073,High,Credit Card,Marathi,East,Premium,Male,Christian,0,TRUE,High,5,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-101,Critical,Payments,English,West,Premium,Female,Other,0,FALSE,High,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-103,High,Personal Loan,English,West,Premium,Female,Hindu,2,FALSE,High,4,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-096,Standard,Savings Account,English,South,Premium,Female,Other,3,FALSE,High,15,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-094,High,Payments,English,West,Premium,Male,Muslim,1,FALSE,High,2,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-099,Standard,Digital Banking,English,South,High Value,Male,Christian,2,FALSE,High,10,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-108,Standard,Personal Loan,English,East,Premium,Male,Christian,3,FALSE,High,6,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-046,Standard,Personal Loan,English,West,Standard,Female,Christian,1,FALSE,High,11,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-035,High,Payments,English,North,Standard,Male,Muslim,2,FALSE,High,5,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-009,Standard,Payments,Marathi,East,Premium,Male,Other,0,TRUE,Low,45,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-035,High,Savings Account,Marathi,North,Premium,Male,Sikh,2,FALSE,Low,19,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-034,High,Credit Card,Marathi,East,Premium,Male,Other,1,FALSE,Low,13,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-031,Critical,Payments,English,North,Premium,Male,Muslim,2,FALSE,High,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-079,Standard,Payments,English,South,Standard,Female,Christian,2,FALSE,High,11,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-022,Critical,Savings Account,Marathi,South,High Value,Female,Hindu,1,FALSE,Low,2,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-037,Standard,Credit Card,English,West,High Value,Male,Hindu,0,FALSE,High,16,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-072,Critical,Savings Account,English,West,Standard,Other,Sikh,3,FALSE,High,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-016,Standard,Payments,English,North,High Value,Male,Muslim,3,FALSE,Low,27,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-052,Critical,Personal Loan,Marathi,South,High Value,Other,Christian,3,FALSE,High,0,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-088,Standard,Payments,English,West,High Value,Other,Sikh,3,FALSE,High,17,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-050,Standard,Digital Banking,Marathi,East,Standard,Male,Hindu,1,FALSE,High,15,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-043,High,Digital Banking,English,East,High Value,Female,Other,2,FALSE,High,4,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-001,Critical,Savings Account,Marathi,South,High Value,Male,Hindu,0,TRUE,Low,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-089,Standard,Payments,English,West,High Value,Female,Muslim,0,TRUE,High,12,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-019,Standard,Payments,English,East,Standard,Female,Sikh,2,FALSE,Low,55,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-050,Standard,Personal Loan,English,East,High Value,Male,Sikh,1,FALSE,High,11,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-063,High,Digital Banking,English,West,High Value,Female,Muslim,2,FALSE,High,3,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-044,High,Digital Banking,English,South,Standard,Other,Other,3,FALSE,High,4,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-070,Standard,Digital Banking,Marathi,South,High Value,Male,Hindu,1,FALSE,High,14,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-027,Standard,Credit Card,English,West,High Value,Male,Christian,2,FALSE,High,9,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-107,Standard,Savings Account,English,East,Standard,Male,Other,2,FALSE,High,17,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-026,Standard,Payments,Marathi,South,High Value,Male,Other,1,FALSE,Low,45,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-078,Standard,Payments,Marathi,East,Standard,Other,Hindu,1,FALSE,High,12,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-085,High,Personal Loan,English,West,High Value,Male,Hindu,0,FALSE,High,5,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-105,High,Digital Banking,English,North,High Value,Other,Christian,0,TRUE,High,3,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-110,Standard,Savings Account,English,West,Standard,Male,Sikh,1,FALSE,High,7,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-075,High,Payments,Marathi,South,High Value,Female,Other,2,FALSE,High,4,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-021,Critical,Payments,Marathi,North,Premium,Other,Christian,0,FALSE,Low,3,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-076,Standard,Payments,Marathi,East,High Value,Male,Muslim,3,FALSE,High,17,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-071,Critical,Payments,Marathi,West,Standard,Other,Hindu,2,FALSE,High,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-087,Standard,Personal Loan,English,West,Standard,Female,Muslim,2,FALSE,High,9,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-008,Standard,Digital Banking,English,North,High Value,Male,Muslim,3,FALSE,Low,41,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-045,High,Digital Banking,English,West,High Value,Other,Sikh,0,FALSE,High,4,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-013,High,Payments,English,South,Premium,Male,Muslim,0,FALSE,Low,16,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-012,Critical,Savings Account,English,West,Standard,Male,Christian,3,FALSE,Low,3,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-032,Critical,Savings Account,English,South,High Value,Male,Other,3,FALSE,High,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-119,Standard,Savings Account,English,East,High Value,Other,Sikh,2,FALSE,High,6,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-017,Standard,Payments,Marathi,South,Premium,Other,Sikh,0,TRUE,Low,26,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-006,Standard,Personal Loan,Marathi,South,High Value,Male,Muslim,1,FALSE,Low,54,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-023,High,Credit Card,Marathi,South,Standard,Female,Hindu,2,FALSE,Low,17,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-077,Standard,Credit Card,Marathi,East,Premium,Female,Christian,0,FALSE,High,6,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-104,High,Credit Card,English,North,Premium,Male,Muslim,3,FALSE,High,5,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-047,Standard,Personal Loan,English,South,Standard,Male,Christian,2,FALSE,High,13,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-025,High,Credit Card,English,South,High Value,Other,Hindu,0,TRUE,High,5,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-062,Critical,Savings Account,Marathi,South,Premium,Other,Christian,1,FALSE,High,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-065,High,Payments,English,East,Premium,Other,Sikh,0,TRUE,High,3,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-038,Standard,Personal Loan,Marathi,East,High Value,Other,Muslim,1,FALSE,High,17,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-005,High,Credit Card,English,North,Standard,Male,Christian,0,FALSE,Low,17,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-027,Standard,Digital Banking,Marathi,North,Standard,Male,Sikh,2,FALSE,Low,41,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-095,High,Digital Banking,English,East,Premium,Female,Other,2,FALSE,High,5,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-024,High,Digital Banking,Marathi,East,Premium,Female,Sikh,3,FALSE,Low,9,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-069,Standard,Credit Card,Marathi,East,Standard,Female,Hindu,0,FALSE,High,15,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-091,Critical,Savings Account,English,East,High Value,Other,Muslim,2,FALSE,High,0,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-118,Standard,Savings Account,English,North,Standard,Female,Other,1,FALSE,High,12,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-023,High,Savings Account,English,West,Standard,Male,Hindu,2,FALSE,Low,15,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-017,Standard,Personal Loan,English,North,High Value,Female,Other,0,TRUE,Low,37,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-083,High,Credit Card,English,East,High Value,Male,Christian,2,FALSE,High,3,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-036,Standard,Digital Banking,Marathi,West,High Value,Other,Christian,3,FALSE,Low,34,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-047,Standard,Digital Banking,Marathi,East,High Value,Other,Muslim,2,FALSE,High,12,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-084,High,Personal Loan,English,East,Standard,Male,Hindu,3,FALSE,High,3,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-055,High,Savings Account,Marathi,West,Premium,Female,Christian,2,FALSE,High,6,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-010,Standard,Savings Account,Marathi,West,Standard,Female,Other,1,FALSE,Low,35,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-020,Standard,Personal Loan,Marathi,South,Premium,Male,Other,3,FALSE,Low,37,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-009,Standard,Digital Banking,English,East,Premium,Female,Other,0,TRUE,Low,48,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-040,Standard,Payments,Marathi,East,High Value,Female,Sikh,3,FALSE,High,10,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-039,Standard,Savings Account,English,South,Standard,Male,Christian,2,FALSE,High,15,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-045,High,Savings Account,Marathi,North,Premium,Male,Other,0,FALSE,High,3,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-059,Standard,Digital Banking,English,West,High Value,Other,Muslim,2,FALSE,High,16,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-049,Standard,Payments,Marathi,West,Standard,Male,Muslim,0,TRUE,High,8,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-100,Standard,Savings Account,English,East,Standard,Male,Hindu,3,FALSE,High,18,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-001,Critical,Payments,English,East,Standard,Male,Christian,0,TRUE,Low,3,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-061,Critical,Personal Loan,English,North,Standard,Female,Other,0,FALSE,High,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-070,Standard,Personal Loan,English,North,High Value,Female,Christian,1,FALSE,High,12,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-028,Standard,Credit Card,Marathi,West,High Value,Male,Hindu,3,FALSE,Low,32,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-109,Standard,Credit Card,English,West,Standard,Male,Christian,0,FALSE,High,9,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-053,High,Credit Card,English,North,Standard,Male,Christian,0,FALSE,High,5,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-018,Standard,Digital Banking,English,North,Standard,Female,Muslim,1,FALSE,Low,38,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-055,High,Payments,English,East,Premium,Male,Other,2,FALSE,High,4,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-019,Standard,Personal Loan,Marathi,East,Standard,Male,Other,2,FALSE,Low,46,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-093,High,Credit Card,English,North,Standard,Male,Muslim,0,FALSE,High,6,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-029,Standard,Credit Card,Marathi,South,Premium,Female,Sikh,0,FALSE,Low,40,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-078,Standard,Credit Card,English,West,High Value,Male,Sikh,1,FALSE,High,9,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-020,Standard,Payments,English,West,Standard,Female,Muslim,3,FALSE,Low,29,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-116,Standard,Personal Loan,English,East,High Value,Other,Sikh,3,FALSE,High,14,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-081,Critical,Personal Loan,English,East,Premium,Male,Muslim,0,TRUE,High,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-054,High,Credit Card,Marathi,South,High Value,Male,Sikh,1,FALSE,High,3,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-067,Standard,Digital Banking,Marathi,North,Premium,Male,Sikh,2,FALSE,High,13,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-057,Standard,Personal Loan,Marathi,North,Standard,Male,Christian,0,TRUE,High,8,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-056,Standard,Personal Loan,English,East,Standard,Male,Muslim,3,FALSE,High,12,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-044,High,Personal Loan,Marathi,West,Premium,Female,Muslim,3,FALSE,High,4,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-066,Standard,Savings Account,Marathi,South,Standard,Female,Other,1,FALSE,High,11,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-067,Standard,Credit Card,English,West,Premium,Male,Hindu,2,FALSE,High,10,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-120,Standard,Credit Card,English,South,Premium,Other,Christian,3,FALSE,High,16,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-018,Standard,Credit Card,Marathi,North,Standard,Female,Sikh,1,FALSE,Low,38,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-075,High,Digital Banking,English,North,High Value,Female,Other,2,FALSE,High,2,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-016,Standard,Savings Account,Marathi,West,Premium,Male,Christian,3,FALSE,Low,27,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-061,Critical,Digital Banking,Marathi,West,Premium,Female,Christian,0,FALSE,High,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-082,Critical,Savings Account,English,North,High Value,Other,Hindu,1,FALSE,High,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-053,High,Payments,Marathi,West,Premium,Male,Other,0,FALSE,High,3,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-004,High,Personal Loan,Marathi,West,High Value,Other,Other,3,FALSE,Low,13,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-052,Critical,Digital Banking,English,North,Premium,Female,Sikh,3,FALSE,High,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-040,Standard,Personal Loan,English,East,Premium,Male,Muslim,3,FALSE,High,8,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-026,Standard,Credit Card,English,North,Premium,Male,Christian,1,FALSE,High,9,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-115,High,Digital Banking,English,East,Standard,Other,Other,2,FALSE,High,3,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-098,Standard,Digital Banking,English,East,Premium,Male,Other,1,FALSE,High,17,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-069,Standard,Credit Card,English,North,High Value,Female,Sikh,0,FALSE,High,8,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-111,Critical,Payments,English,East,Premium,Male,Hindu,2,FALSE,High,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-024,High,Personal Loan,English,East,Standard,Female,Hindu,3,FALSE,Low,17,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-037,Standard,Credit Card,Marathi,North,High Value,Male,Sikh,0,FALSE,High,9,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-008,Standard,Personal Loan,Marathi,East,Premium,Male,Christian,3,FALSE,Low,51,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-011,Critical,Savings Account,English,East,Standard,Other,Sikh,2,FALSE,Low,2,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-076,Standard,Credit Card,English,South,Premium,Female,Christian,3,FALSE,High,12,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-014,High,Digital Banking,Marathi,East,Premium,Female,Muslim,1,FALSE,Low,18,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-072,Critical,Payments,Marathi,North,Standard,Female,Other,3,FALSE,High,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-068,Standard,Payments,Marathi,North,High Value,Male,Hindu,3,FALSE,High,17,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-003,High,Credit Card,English,North,High Value,Other,Sikh,2,FALSE,Low,12,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-002,Critical,Payments,Marathi,North,High Value,Female,Muslim,1,FALSE,Low,2,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-042,Critical,Savings Account,English,South,Standard,Male,Muslim,1,FALSE,High,0,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-064,High,Credit Card,Marathi,South,Premium,Male,Other,3,FALSE,High,2,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-059,Standard,Savings Account,Marathi,South,High Value,Female,Hindu,2,FALSE,High,15,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-015,High,Personal Loan,English,North,Standard,Female,Other,2,FALSE,Low,15,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-114,High,Savings Account,English,North,Premium,Male,Muslim,1,FALSE,High,2,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-030,Standard,Personal Loan,Marathi,West,Premium,Male,Hindu,1,FALSE,Low,48,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-065,High,Savings Account,Marathi,South,Standard,Male,Sikh,0,TRUE,High,2,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-038,Standard,Credit Card,English,East,High Value,Male,Sikh,1,FALSE,High,7,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-102,Critical,Digital Banking,English,East,High Value,Male,Hindu,1,FALSE,High,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-074,High,Savings Account,English,East,Standard,Other,Other,1,FALSE,High,4,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-080,Standard,Credit Card,Marathi,North,Standard,Female,Muslim,3,FALSE,High,13,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-041,Critical,Personal Loan,Marathi,South,Premium,Male,Christian,0,TRUE,High,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-002,Critical,Personal Loan,English,North,Standard,Female,Christian,1,FALSE,Low,2,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-058,Standard,Payments,English,North,Standard,Male,Christian,1,FALSE,High,10,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-007,Standard,Payments,English,South,High Value,Male,Hindu,2,FALSE,Low,42,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-068,Standard,Payments,English,West,High Value,Male,Sikh,3,FALSE,High,7,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-033,High,Personal Loan,English,West,Standard,Male,Other,0,TRUE,High,5,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-042,Critical,Personal Loan,Marathi,South,High Value,Male,Other,1,FALSE,High,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-112,Critical,Payments,English,East,High Value,Female,Muslim,3,FALSE,High,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-010,Standard,Credit Card,English,East,High Value,Other,Other,1,FALSE,Low,28,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-113,High,Payments,English,South,High Value,Male,Hindu,0,TRUE,High,4,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-090,Standard,Savings Account,English,North,Standard,Other,Sikh,1,FALSE,High,18,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-033,High,Credit Card,Marathi,North,High Value,Female,Sikh,0,TRUE,Low,9,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ENG-062,Critical,Payments,English,West,High Value,Other,Sikh,1,FALSE,High,0,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-007,Standard,Digital Banking,Marathi,South,High Value,Other,Hindu,2,FALSE,Low,39,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+MAR-074,High,Payments,Marathi,North,Premium,Male,Other,1,FALSE,High,6,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
